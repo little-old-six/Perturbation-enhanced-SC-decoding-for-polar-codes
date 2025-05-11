@@ -13,7 +13,7 @@ Abstract: For polar codes, the bit-flipping strategy can significantly improve p
 
 Description: These are a set of programs for my research work, called “perturbation-based decoding schemes for long polar codes”.
 
-Folder Obtain_delta: A program for obtaining the number of required g-functions in estimating the information bit u_i.
+Function-Obtain_delta: A program for obtaining the number of required g-functions in estimating the information bit u_i.
 
 
 
