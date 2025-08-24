@@ -11,9 +11,10 @@ Abstract: For polar codes, the bit-flipping strategy can significantly improve p
 
 
 
-**Description: **These are a set of programs for my research work, called “perturbation-based decoding schemes for long polar codes”.
+**Description:** These are a set of programs for my research work, called “perturbation-based decoding schemes for long polar codes”.
 
-**Function-Obtain_delta: **A program for obtaining the number of required g-functions in estimating the information bit u_i.
+**Function-Obtain_delta:** A program for obtaining the number of required g-functions in estimating the information bit u_i.
+
 **Algorithm：Random Perturbation-based SC decoding:** It implements the random perturbation-based SC (RPSC) decoding proposed in our recent work [1]. Note that the same algorithm is also referred to as the perturbation-based SC (PSC) decoding in ITW 2025 [2]. More information, please read the readme-RPSC in this file.
 
 These algorithms might be confusing. Please read the paper carefully, and if you still do not understand it, feel free to contact me via email address ZhongjunYang at ieee dot org
