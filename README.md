@@ -4,6 +4,7 @@
 If you find this algorithm useful, please cite the following papers. Thanks.
 
 [1] Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang, “Perturbation-based decoding schemes for long polar codes,” in Proc. 2025 IEEE Int. Symp. Inf. Theory (ISIT), Ann Arbor, MI, USA, Jun. 2025.
+
 [2] Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang, “Improved successive cancellation decoding of polar codes through perturbing a posteriori LLRs,” in Proc. 2025 IEEE Inf. Theory Workshop (ITW), Sydney, Australia, Sep. 2025.
 
 
@@ -15,7 +16,7 @@ Abstract: For polar codes, the bit-flipping strategy can significantly improve p
 
 **Function-Obtain_delta:** A program for obtaining the number of required g-functions in estimating the information bit u_i.
 
-**Algorithm：Random Perturbation-based SC decoding:** It implements the random perturbation-based SC (RPSC) decoding proposed in our recent work [1]. Note that the same algorithm is also referred to as the perturbation-based SC (PSC) decoding in ITW 2025 [2]. More information, please read the readme-RPSC in this file.
+**Algorithm-Random Perturbation-based SC decoding:** It implements the random perturbation-based SC (RPSC) decoding proposed in our recent work [1]. Note that the same algorithm is also referred to as the perturbation-based SC (PSC) decoding in ITW 2025 [2]. More information, please read the readme-RPSC.
 
 These algorithms might be confusing. Please read the paper carefully, and if you still do not understand it, feel free to contact me via email address ZhongjunYang at ieee dot org
 
