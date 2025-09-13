@@ -1,14 +1,24 @@
 # Perturbation-Enhanced SC Decoding for Polar Codes
 
 
-If you find this algorithm useful, please cite the following papers. Thanks.
+These algorithms are for my latest work,
+
+
+Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang “Improved Successive Cancellation Decoding of Polar Codes Through Perturbing A Posteriori LLRs and Its Theoretical Insights,” submitted to IEEE Transactions on Communications, 2025.
+
+
+Earlier versions of the above paper were presented in part at the 2025 IEEE International Symposium on Information Theory (ISIT) [1] and the 2025 IEEE Information Theory Workshop (ITW) [2]. If you find these algorithms useful, please cite the following paper. Thanks.
+
 
 [1] Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang, “Perturbation-based decoding schemes for long polar codes,” in Proc. 2025 IEEE Int. Symp. Inf. Theory (ISIT), Ann Arbor, MI, USA, Jun. 2025.
 
 [2] Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang, “Improved successive cancellation decoding of polar codes through perturbing a posteriori LLRs,” in Proc. 2025 IEEE Inf. Theory Workshop (ITW), Sydney, Australia, Sep. 2025.
 
 
-Abstract: For polar codes, the bit-flipping strategy can significantly improve performance of its successive cancellation (SC) decoding. However, the gain derived from SC-flip (SCF) decoding diminishes as the codeword length increases. Addressing this issue, this paper proposes a novel hybrid perturbation-based SC (HPSC) decoding. If the initial SC decoding fails, the algorithm will generate multiple SC decoding attempts, each of which introduces stochastic perturbations to the received symbols. By soft information perturbations, the SC decoding can divert from the initial erroneous estimation and converge to the intended one. Our simulation results show that the proposed HPSC decoding consistently yields stable coding gains over various codeword lengths and rates. With the same number of decoding attempts, the HPSC decoding outperforms the thresholded SCF (TSCF) decoding. Moreover, it can achieve a similar performance as the cyclic redundancy check (CRC) aided SC list (CA-SCL) decoding, without any path sorting and expansion requirements. 
+Abstract [1]: For polar codes, the bit-flipping strategy can significantly improve performance of its successive cancellation (SC) decoding. However, the gain derived from SC-flip (SCF) decoding diminishes as the codeword length increases. Addressing this issue, this paper proposes a novel hybrid perturbation-based SC (HPSC) decoding. If the initial SC decoding fails, the algorithm will generate multiple SC decoding attempts, each of which introduces stochastic perturbations to the received symbols. By soft information perturbations, the SC decoding can divert from the initial erroneous estimation and converge to the intended one. Our simulation results show that the proposed HPSC decoding consistently yields stable coding gains over various codeword lengths and rates. With the same number of decoding attempts, the HPSC decoding outperforms the thresholded SCF (TSCF) decoding. Moreover, it can achieve a similar performance as the cyclic redundancy check (CRC) aided SC list (CA-SCL) decoding, without any path sorting and expansion requirements. 
+
+
+Abstract [2]: For polar codes, perturbing received information can enhance the error-correction performance of successive cancellation (SC) decoding. This is an effective approach for realizing low-latency yet high decoding performance for long polar codes, since each perturbation-enhanced SC (PSC) decoding can be performed in parallel. This paper provides theoretical insights into the soft information perturbation. It first reveals that the PSC decoding can be equivalently viewed as perturbing the SC decoding a posteriori log-likelihood ratio (LLR) of the information bits. Such a revelation enables us to reduce the perturbation complexity by only targeting the information bits, resulting in an improved PSC (IPSC) decoding. By better utilizing the a posteriori LLRs, a set of possibly erroneous estimations can be formed to be perturbed, further reducing the perturbation complexity. Our simulation results show that, for various codeword lengths, the proposed IPSC decoding can achieve a similar performance as the PSC decoding, while yielding significant perturbation complexity reduction. 
 
 
 
