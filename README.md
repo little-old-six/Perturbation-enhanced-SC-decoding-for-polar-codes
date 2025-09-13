@@ -7,7 +7,7 @@ These algorithms are for my latest work,
 Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang “Improved Successive Cancellation Decoding of Polar Codes Through Perturbing A Posteriori LLRs and Its Theoretical Insights,” submitted to IEEE Transactions on Communications, 2025.
 
 
-Earlier versions of the above paper were presented in part at the 2025 IEEE International Symposium on Information Theory (ISIT) [1] and the 2025 IEEE Information Theory Workshop (ITW) [2]. If you find these algorithms useful, please cite the following paper. Thanks.
+Earlier versions of the above paper were presented in part at the 2025 IEEE ISIT [1] and the 2025 IEEE ITW [2]. If you find these algorithms useful, please cite the following paper. Thanks.
 
 
 [1] Z. Yang, L. Chen, K. Qin, X. Wang, and H. Zhang, “Perturbation-based decoding schemes for long polar codes,” in Proc. 2025 IEEE Int. Symp. Inf. Theory (ISIT), Ann Arbor, MI, USA, Jun. 2025.
